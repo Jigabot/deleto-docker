@@ -1,0 +1,5 @@
+on death of player:
+	execute console command "/kick %victim% You're dead!"
+	broadcast "ATTENTION: %victim% has died. Worlds will be deleted in 60 seconds."
+	wait 60 seconds
+	restart server 
